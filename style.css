@@ -18,26 +18,31 @@ body {
   .header1 {
     margin-top: 10px;
     display: flex;
-    gap: 10px;
+    justify-content: space-between;
     h1 {
-      font-size: 2rem;
+      font-size: 1.5rem;
       margin-bottom: 10px;
       color: white;
     }
     h2 {
-      font-size: 1rem;
+      font-size: 0.8rem;
       margin-bottom: 10px;
       color: white;
     }
     .p1 {
       color: rgb(215, 215, 215);
-      font-size: 0.9rem;
+      font-size: 0.8rem;
       width: 250px;
     }
+  }
+  .content {
+    padding: 30px 0px 0px 30px;
+    max-width: 200px;
   }
   .my-img {
     border-radius: 20px;
     overflow: hidden;
+    width: fit-content;
     img {
       width: 100px;
     }
@@ -51,6 +56,7 @@ body {
     background-color: rgb(38, 80, 116);
     border-radius: 10px;
     padding-left: 10px;
+    padding-top: 5px;
     img {
       width: 28px;
       margin-right: 20px;
@@ -176,6 +182,7 @@ body {
     background-color: rgb(38, 80, 116);
     border-radius: 10px;
     padding-left: 10px;
+    padding-top: 5px;
     overflow: hidden;
     width: 30px;
     transition: all 1s;
