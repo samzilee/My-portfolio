@@ -3,7 +3,6 @@
   padding: 0;
 }
 body {
-  /* background-color: rgb(12, 75, 105); */
   background-color: rgb(6, 36, 63);
   font-family: arial;
   /*top*/ /*right*/ /*bottom*/ /*left*/
@@ -137,8 +136,17 @@ body {
 
 @media screen and (min-width: 767.1px) {
   body {
-    display: flex;
-    gap: 15%;
+    /* display: flex;
+    gap: 15%; */
+    padding-left: 45%;
+  }
+  header {
+    position: fixed;
+    left: 6%;
+    top: 10%;
+  }
+  main {
+    padding-bottom: 1000px;
   }
   .header1 {
     margin-top: 10px;
@@ -238,7 +246,7 @@ body {
     }
   }
   .section2 {
-    header {
+    .header {
       color: rgb(181, 181, 181);
       font-size: 13px;
       margin-bottom: 6px;
