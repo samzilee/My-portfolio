@@ -106,7 +106,7 @@ body {
     }
   }
   .section2 {
-    header {
+    .header {
       color: rgb(181, 181, 181);
       font-size: 13px;
       margin-bottom: 6px;
